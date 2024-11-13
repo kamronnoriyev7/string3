@@ -160,17 +160,122 @@
 //     }
 // }
 
-public class Program
-{
-    public static void function()
-    {
-        
-    }
+// 5
+// public class Program
+// {
+//     public static int function(string input)
+//     {
+//         var charInput = input.ToCharArray();
+//         var count = 0;
+//         for (int i = 0; i <charInput.Length-2; i++)
+//         {
+//             if (charInput[i]==charInput[i+1] && charInput[i+1]==charInput[i+2])
+//             {
+//                 ++count;
+//             }
+//         }
+//
+//         return count;
+//
+//     }
+//
+//     public static void Main()
+//     {
+//         Console.Write("satr: ");
+//         var input = (Console.ReadLine());
+//         var count = function(input);
+//         Console.WriteLine(count);
+//     }
+// }
 
-    public static void Main()
-    {
-        Console.Write("satr: ");
-        var text = (Console.ReadLine());
-        
-    }
-}
+// 6
+// public class Program
+// {
+//     public static int function(string input)
+//     {
+//         var number = 0;
+//         var toArray = input.ToCharArray();
+//         for (int i = 0; i < input.Length; i++)
+//         {
+//             if (char.IsDigit(toArray[i]))
+//             {
+//                number+= (toArray[i] - '0'); 
+//             }
+//         }
+//
+//         return number;
+//     }
+//
+//     public static void Main()
+//     {
+//         Console.WriteLine("satr: ");
+//         var input = Console.ReadLine();
+//         var result = function(input);
+//         Console.WriteLine(result);
+//     }
+// }
+
+// 7
+// public class Program
+// {
+//     public static string function(string input)
+//     {
+//         for (int i = 0; i < input.Length; i++)
+//         {
+//             for (int j = 0; j < input.Length; j++)
+//             {
+//                var substring = input.Substring(i,j);
+//                var lastsubstring = input.EndsWith(substring);
+//                 
+//                 if (input.Substring(i,j) && lastsubstring)
+//                 {
+//                     var stringText = input.Substring(i, j);
+//                     return stringText;
+//                 }
+//             }
+//         }
+//
+//         return "o'xshash satr yoq";
+//
+//     }
+//
+//     public static void Main(string[] args)
+//     {
+//         Console.WriteLine("satr: ");
+//         var input = Console.ReadLine();
+//         var result = function(input);
+//         Console.WriteLine(result);
+//     }
+// }
+
+                           
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
